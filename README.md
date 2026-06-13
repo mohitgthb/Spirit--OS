@@ -227,7 +227,7 @@ Optimized Depth-First Search with O(E·log N) complexity:
 ## 📁 Project Structure
 
 ```
-Savita_OS/
+Spirit--OS/
 ├── client/                    # React Frontend (Vite)
 │   ├── public/
 │   │   └── models/           # ML models
@@ -336,9 +336,9 @@ Savita_OS/
 │   └── package.json
 
 ├── docs/
-│   ├── SAVITAOS_BUILD_GUIDE.md
-│   ├── SAVITAOS_VERIFY.md
-│   ├── SAVITAOS_UI_REDESIGN_PROMPT.md
+│   ├── SPIRITOS_BUILD_GUIDE.md
+│   ├── SPIRITOS_VERIFY.md
+│   ├── SPIRITOS_UI_REDESIGN_PROMPT.md
 │   ├── yolo_gesture_control_models.md
 │   ├── fixingcamera.md        # Camera conflict fixes
 │   └── poster.html            # Research poster
@@ -363,7 +363,7 @@ Savita_OS/
 ```bash
 # Clone the repository
 git clone <repository-url>
-cd Savita_OS
+cd Spirit--OS
 
 # Install all dependencies (frontend + backend)
 npm install
