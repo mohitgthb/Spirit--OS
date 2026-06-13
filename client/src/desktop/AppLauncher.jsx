@@ -21,7 +21,7 @@ function FocusTimer() {
           clearInterval(intervalRef.current)
           setRunning(false)
           // Notify on finish
-          try { new Audio('/sounds/Spirit_Awake.mp3').play().catch(() => {}) } catch (_) {}
+          try { new Audio('/sounds/Awake.mp3').play().catch(() => {}) } catch (_) {}
           return 0
         }
         return s - 1

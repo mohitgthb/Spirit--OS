@@ -65,7 +65,7 @@ function showBrowserNotification({ title, body }) {
 // Short, polite chime — fall back to silent if the file fails to load
 function playChime() {
   try {
-    const a = new Audio('/sounds/Spirit_Awake.mp3')
+    const a = new Audio('/sounds/Awake.mp3')
     a.volume = 0.5
     a.play().catch(() => {})
   } catch (_) {}

@@ -78,7 +78,7 @@ function App() {
 
   return (
     <div className="w-screen h-screen overflow-hidden bg-os-bg-primary">
-      {/* Startup boot screen — plays Spirit_Awake.mp3 on every load */}
+      {/* Startup boot screen — plays Awake.mp3 on every load */}
       {!booted && <BootScreen onDone={() => setBooted(true)} />}
       <Desktop />
       {/* Voice controller — real speech recognition with 30+ commands */}
